@@ -620,7 +620,7 @@
             <h1 class="blog-title"><%= blogid.title %></h1>
             <div class="image-container">
                 <img class="blog-cover" src="<%= blogid.CoverImgURL %>" alt="<%= blogid.title %> cover image" loading="lazy">
-            </div><%= blogid.CoverImgURL %>
+            </div>
             <div class="creator-info">
                 <img onclick="window.location.href='/follow/<%= blogid.createdby._id %>'" src="<%= blogid.createdby.ProfilePic %>" alt="<%= blogid.createdby.userName %>'s Profile Picture" loading="lazy">
                 <div class="info-text">
